@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Example Tag on Jairo Morales Pérez</title>
-        <link>https://icky17.github.io/tags/example-tag/</link>
-        <description>Recent content in Example Tag on Jairo Morales Pérez</description>
+        <title>Example on Jairo Morales Pérez</title>
+        <link>https://icky17.github.io/categories/example/</link>
+        <description>Recent content in Example on Jairo Morales Pérez</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 29 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://icky17.github.io/tags/example-tag/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 29 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://icky17.github.io/categories/example/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>First Post</title>
         <link>https://icky17.github.io/p/first-post/</link>
         <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>

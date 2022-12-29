@@ -5,46 +5,6 @@
         <link>https://icky17.github.io/categories/example-category/</link>
         <description>Recent content in Example Category on Jairo Morales Pérez</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://icky17.github.io/categories/example-category/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Hello World</title>
-        <link>https://icky17.github.io/p/hello-world/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://icky17.github.io/p/hello-world/</guid>
-        <description>&lt;img src="https://icky17.github.io/p/hello-world/cover.jpg" alt="Featured image of post Hello World" /&gt;&lt;p&gt;Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!&lt;/p&gt;
-&lt;p&gt;For more information about this theme, check the documentation: &lt;a class=&#34;link&#34; href=&#34;https://docs.stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://docs.stack.jimmycai.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Want a site like this? Check out &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;hugo-theme-stack-stater&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;hello-world&#34;&gt;Hello World&lt;/h1&gt;
-&lt;p&gt;This is only a test to see, if the table of contents works!!&lt;/p&gt;
-&lt;p&gt;asdfas
-dfa
-sdf
-as
-df
-asdf
-a&lt;/p&gt;
-&lt;h1 id=&#34;test-1&#34;&gt;Test 1&lt;/h1&gt;
-&lt;p&gt;sdfasdf
-asdf
-asd
-fa
-sdf
-as&lt;/p&gt;
-&lt;h2 id=&#34;test-1-1&#34;&gt;Test 1&lt;/h2&gt;
-&lt;p&gt;asdf
-asd
-f
-asdf&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@pawel_czerwinski&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Pawel Czerwinski&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        </item>
-        
+        <language>en-us</language><atom:link href="https://icky17.github.io/categories/example-category/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
