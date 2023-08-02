@@ -1,0 +1,62 @@
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container{
+   max-width: 1120px;
+   margin-inline: 1.5rem;
+}
+
+.grid{
+   display: grid;
+   gap: 1.5rem;
+}
+
+.section{
+   padding-block: 4rem 2rem;
+
+   &__title-1,
+   &__title-2{
+      position: relative;
+      font-size: var(--h1-font-size);
+      width: max-content;
+      margin: .75rem auto 2rem;
+
+      & span{
+         z-index: 5;
+         position: relative;
+      }
+      &::after{
+         content: '';
+         width: 40px;
+         height: 28px;
+         background-color: hsla(14, 98%, 50%, .2);
+         position: absolute;
+         top: -4px;
+         right: -8px;
+      }
+   }
+   &__title-2::after{
+      top: initial;
+      bottom: -4px;
+   }
+}
+
+.geometric-box{
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   background-color: var(--first-color);
+   rotate: (-30deg);
+
+   &::after{
+      content: '';
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      border: 3px solid var(--black-color);
+      left: -5px;
+      top: -5px;
+   }
+}
+
+.main{
+   overflow: hidden; /* For animation ScrollReveal */
+}

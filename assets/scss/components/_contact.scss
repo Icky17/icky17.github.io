@@ -1,0 +1,180 @@
+/*=============== CONTACT ===============*/
+.contact{
+   padding-bottom: 0;
+
+   &__container{
+      position: relative;
+      grid-template-rows: 300px max-content max-content;
+      row-gap: 0;
+   }
+   &__data{
+      position: relative;
+      width: 300px;
+      height: 300px;
+      background-color: var(--container-color);
+      padding: 3rem 1.5rem 3.5rem;
+      margin-left: auto;
+      border-bottom: 4px solid var(--first-color);
+      z-index: 5;
+      transition: background-color .4s; /* for dark mode */
+
+      & .section__title-2{
+         margin: 0 0 1.5rem;
+         transform: translateX(-3rem);
+      }
+   }
+   &__description-1{
+      color: var(--title-color);
+      font-weight: var(--font-medium);
+      margin-bottom: 2rem;
+   }
+   &__description-2{
+      color: var(--title-color);
+      font-size: var(--small-font-size);
+   }
+   &__data .geometric-box{
+      top: 2rem;
+      right: 2.5rem;
+   }
+   &__mail{
+      position: relative;
+      background-color: var(--black-color);
+      padding: 5rem 1.5rem 2.5rem;
+      margin-top: -2.5rem;
+      transition: background-color .4s; /* for dark mode */
+   }
+   &__title{
+      color: var(--white-color);
+      font-size: var(--h2-font-size);
+      margin-bottom: 2rem;
+      text-align: center;
+   }
+   &__form,
+   &__group{
+      display: grid;
+      row-gap: 1.25rem;
+   }
+   &__form{
+      position: relative;
+   }
+   &__box{
+      position: relative;
+      width: 100%;
+      height: 58px;
+   }
+   &__input,
+   &__button{
+      font-family: var(--body-font);
+      font-size: var(--normal-font-size);
+      outline: none;
+      border: none;
+   }
+   &__input{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: var(--black-color);
+      border: 3px solid var(--black-color-light);
+      color: var(--white-color);
+      padding: .5rem 1rem;
+      font-weight: var(--font-medium);
+      transition: border .4s, background-color .4s;
+
+      &::placeholder{
+         color: var(--text-color-light);
+         transition: opacity .4s;
+      }
+      &:focus{
+         border: 3px solid var(--white-color);
+      }
+      &:-webkit-autofill{
+        transition: background-color 6000s, color 6000s;
+      }
+   }
+   &__label{
+      position: absolute;
+      top: 8px;
+      left: 10px;
+      color: var(--text-color-light);
+      font-size: var(--small-font-size);
+      font-weight: var(--font-medium);
+      background-color: var(--black-color);
+      padding: 8px;
+      pointer-events: none;
+      transition: top .4s, opacity .4s, background-color .4s;
+      opacity: 0;
+   }
+   &__form &__area{
+      height: 10rem;
+   }
+   &__area textarea{
+      resize: none;
+      padding-top: 1rem;
+   }
+   &__button{
+      background-color: var(--first-color);
+      cursor: pointer;
+   }
+   // Opaque placeholder
+   &__input:focus::placeholder{
+      opacity: 0;
+   }
+   // Move label up & sticky label
+   &__input:focus + &__label,
+   &__input:not(:placeholder-shown).contact__input:not(:focus) + &__label{
+      opacity: 1;
+      top: -16px;
+   }
+   &__social{
+      display: grid;
+      row-gap: 1rem;
+      background-color: hsl(0, 0%, 10%);
+      padding-block: 1rem 2rem;
+      text-align: center;
+
+      &-arrow{
+         width: 32px;
+         margin: 0 auto;
+      }
+      &-data{
+         display: flex;
+         flex-direction: column;
+         row-gap: 1.5rem;
+      }
+      &-description-1{
+         color: var(--text-color-light);
+         font-size: var(--small-font-size);
+         margin-bottom: .5rem;
+      }
+      &-description-2{
+         color: var(--white-color);
+         font-size: var(--small-font-size);
+         font-weight: var(--font-semi-bold);
+      }
+      &-links{
+         display: flex;
+         justify-content: center;
+         column-gap: .75rem;
+      }
+      &-link{
+         background-color: var(--black-color-light);
+         padding: 6px;
+         color: var(--white-color);
+         font-size: 1.25rem;
+         display: grid;
+         place-items: center;
+         transition: background-color .3s;
+
+         &:hover{
+            background-color: var(--first-color);
+         }
+      }
+   }
+   &__message{
+      color: var(--white-color);
+      font-size: var(--small-font-size);
+      position: absolute;
+      bottom: -1.6rem;
+      left: 0;
+   }
+}

@@ -1,0 +1,32 @@
+/*=============== FOOTER ===============*/
+.footer{
+   background-color: var(--black-color);
+
+   &__container{
+      padding-block: 3rem 2rem;
+      row-gap: 2.5rem;
+   }
+   &__links{
+      display: flex;
+      justify-content: center;
+      column-gap: 2rem;
+   }
+   &__link{
+      color: var(--white-color);
+      transition: color .4s;
+
+      &:hover{
+         color: var(--text-color-light);
+      }
+   }
+   &__copy{
+      color: var(--text-color-light);
+      font-size: var(--small-font-size);
+      text-align: center;
+
+      & a{
+         color: var(--white-color);
+         font-weight: var(--font-medium);
+      }
+   }
+}

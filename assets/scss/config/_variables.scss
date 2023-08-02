@@ -1,0 +1,52 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root{
+   --header-height: 3.5rem;
+
+   /*========== Colors ==========*/
+   /*Color mode HSL(hue, saturation, lightness)*/
+   --first-color: hsl(14, 98%, 50%);
+   --black-color: hsl(0, 0%, 0%);
+   --black-color-light: hsl(0, 0%, 40%);
+   --white-color: hsl(0, 0%, 95%);
+   --title-color: hsl(0, 0%, 0%);
+   --text-color: hsl(0, 0%, 35%);
+   --text-color-light: hsl(0, 0%, 64%);
+   --body-color: hsl(0, 0%, 87%);
+   --container-color: hsl(0, 0%, 83%);
+
+   /*========== Font and typography ==========*/
+   /*.5rem = 8px | 1rem = 16px ...*/
+   --body-font: 'Bai Jamjuree', sans-serif;
+
+   --biggest-font-size: 2.5rem;
+   --h1-font-size: 1.75rem;
+   --h2-font-size: 1.25rem;
+   --h3-font-size: 1.125rem;
+   --normal-font-size: .938rem;
+   --small-font-size: .813rem;
+   --smaller-font-size: .75rem;
+
+   // Responsive typography
+   @media screen and (min-width: 1150px){
+      --biggest-font-size: 4.5rem;
+      --h1-font-size: 3rem;
+      --h2-font-size: 1.5rem;
+      --h3-font-size: 1.25rem;
+      --normal-font-size: 1rem;
+      --small-font-size: .875rem;
+      --smaller-font-size: .813rem;
+   }
+
+	/*========== Font weight ==========*/
+   --font-regular: 400;
+   --font-medium: 500;
+   --font-semi-bold: 600;
+   --font-bold: 700;
+
+	/*========== z index ==========*/
+   --z-tooltip: 10;
+   --z-fixed: 100;
+}
