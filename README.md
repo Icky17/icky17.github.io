@@ -35,7 +35,7 @@ If you'd like to reach out to me, you can find me on the following platforms:
 
 ## License
 
-This software is licensed under the [MIT](https://github.com/Icky17/icky17.github.io/blob/master/LICENSE) © [NHN Cloud](https://github.com/Icky17).
+This software is licensed under the [MIT](https://github.com/Icky17/icky17.github.io/blob/master/LICENSE) © [Icky17](https://github.com/Icky17).
 
 ## Acknowledgements
 
