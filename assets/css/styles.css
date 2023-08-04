@@ -128,7 +128,7 @@ body.dark-theme {
   background-color: hsla(14, 70%, 50%, .2);
 }
 
-.dark-theme :is(.home__arrow, .home__line, .about__line) {
+.dark-theme :is(.home__arrow, .home__line, .home__stars, .home__crown, .home__ink, .about__line) {
   filter: none;
 }
 
@@ -391,7 +391,7 @@ body.dark-theme {
 }
 
 .home__name {
-  font-size: var(--biggest-font-size);
+  font-size: 440%;
   text-align: center;
 }
 
@@ -409,6 +409,14 @@ body.dark-theme {
   z-index: 10;
 }
 
+.home__cloud {
+  left: -20%;
+  top: -35rem;
+  width: 45%;
+  position: relative;
+  z-index: 11;
+}
+
 .home__shadow {
   width: 100%;
   height: 100%;
@@ -422,7 +430,10 @@ body.dark-theme {
 }
 
 .home__arrow, 
-.home__line {
+.home__line,
+.home__stars,
+.home__crown,
+.home__ink {
   position: absolute;
   filter: invert(1);
   width: 50px;
@@ -437,6 +448,21 @@ body.dark-theme {
 .home__line {
   right: -2rem;
   bottom: -.5rem;
+}
+
+.home__stars {
+  left: -175%;
+  bottom: -4rem;
+}
+
+.home__crown {
+  left: 38%;
+  bottom: -4rem;
+}
+
+.home__ink {
+  left: 100%;
+  bottom: -3rem;
 }
 
 .home__perfil .geometric-box {
@@ -653,6 +679,7 @@ body.dark-theme {
 }
 
 .about__list {
+  font-size: 1.05rem;
   list-style: square;
   color: var(--title-color);
   margin-bottom: 3rem;
@@ -1305,16 +1332,31 @@ body.dark-theme {
     top: 15rem;
   }
   .home__arrow {
-    top: 4.5rem;
-    left: -8rem;
+    top: 8rem;
+    left: -6.5rem;
     rotate: 80deg;
     width: 80px;
   }
   .home__line {
     left: -15rem;
-    bottom: 4rem;
+    bottom: 7rem;
     width: 80px;
-    rotate: 30deg;
+    rotate: 40deg;
+  }
+  .home__stars {
+    top: -1rem;
+    left: -42rem;
+    rotate: 340deg;
+    width: 220px;
+  }
+  .home__crown {
+    top: -4.5rem;
+    width: 100px;
+  }
+  .home__ink {
+    top: 25rem;
+    left: 17rem;
+    width: 180px;
   }
   .home__social {
     left: initial;
@@ -1480,7 +1522,7 @@ body.dark-theme {
     column-gap: 1.25rem;
   }
   .contact__social-arrow {
-    width: 40px;
+    width: 50px;
   }
   .contact__social-link {
     font-size: 1.5rem;

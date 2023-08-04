@@ -35,7 +35,7 @@ body.dark-theme{
 	& .section__title-2::after{
 		background-color: hsla(14, 70%, 50%, .2);
 	}
-	& :is(.home__arrow, .home__line, .about__line){
+	& :is(.home__arrow, .home__line, .home__stars, .home__crown, .home__ink, .about__line){
 		filter: none;
 	}
 	& .home__description b{
